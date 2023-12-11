@@ -1,0 +1,385 @@
+body {
+    margin: 0px;
+    width: 100%;
+    font-size: 16px;
+    color: #0e0d0de3;
+    font-family: 'PT Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000000;
+}
+
+header {
+    width: 100%;
+    height: 730px;
+    border-bottom: 20px solid;
+    border-image: linear-gradient(to right, #053786, #00A6CB) 1;
+
+}
+
+/******************* nav ***********************/
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.nav-container div {
+    padding: 0% 1%;
+    font-size: 22px;
+    color: #4E4E4E;
+    font-weight: 800;
+}
+
+.nav-menu-ul {
+    padding: 0% 1%;
+    width: 45%;
+    min-width: 352px;
+    display: flex;
+    color: black;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    gap: 20%;
+    font-size: 17px;
+    
+}
+
+.nav-menu-ul .nav-menu-list a {
+    text-decoration: none;
+    color: black;
+}
+
+/******************* home ***********************/
+
+.home-container {
+    background-image: url(images/hero-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 663px;
+    color: white;
+    display: flex;
+    position: relative;
+    top: 72px;
+
+}
+
+.home-container .home-info {
+    width: 38%;
+    min-width: 319px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 13%;
+    margin-left: 8%;
+    
+}
+
+.home-container .home-info h2 {
+    font-size: 45px;
+    color: white;
+}
+
+.home-container .home-info p {
+    font-size: 20px;
+}
+
+/******************* EDA-container ***********************/
+
+.EDA-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-type {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech-type-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 210px;
+
+}
+.tech-type-ul li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/******************* technology-container ***********************/
+
+.technology-container{
+    width: 80%;
+    margin: 0 auto;
+    height: 450px;
+}
+.side-heading{
+    /* font-size: px; */
+    padding: 7px;
+    font-weight: 1;
+    border-left: 3px solid;
+    border-image: linear-gradient( #053786, #00A6CB) 1;
+}
+
+.techn-card{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    background-image: url(./images/technology.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: right;
+    align-items: center;
+    font-size: 19px;
+    border-radius: 10px;
+}
+.techn-card-img{
+    width: 100%;
+    display: none;
+}
+.techn-card-img img{
+    
+    width: 100%;
+}
+.techn-card-para{
+    width: 50%;
+}
+.techn-card-para2{
+    display:none;
+}
+
+
+/******************* portfolio ***********************/
+
+.portfolio-container{
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.port-content{
+    width: 50%;
+    min-width: 309px;
+}
+.port-img{
+    width: 50%;
+}
+.port-img img{
+    width: 100%;
+}
+
+
+/******************* casses ***********************/
+
+.cases-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.case-boxs{
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 13px;
+    min-width: 222px;
+}
+.case-box{
+    width:25% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 7px;
+    min-width: 22px;
+}
+.case-img{
+    background-color: rgba(0, 0, 0, 0.226);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 7px 0px 0px 7px;
+}
+.case-box img{
+    width: 20px;
+    height: 20px;
+}
+.case-para{
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+/******************* footer***********************/
+
+footer{
+    margin-top: 90px;
+    width: 100%;
+    border-bottom: 20px solid;
+    border-image: linear-gradient(to right, #053786, #00A6CB) 1;
+    background-color: #011533;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer .side-heading{
+    margin-left: 10%;
+    color: white;
+}
+.footer-body{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.footer-content{
+    width: 40%;
+    min-width: 330px;
+    text-decoration: none;
+}
+.footer-content a{
+    color: white;
+    text-decoration: none;
+}
+.map-container{
+    width: 60%;
+}
+.map-container iframe{
+    width: 100%;
+    height: 350px;
+    min-width: 320px;
+}
+
+
+/******************* media ***********************/
+
+@media screen and (max-width:750px) {
+
+    /******************* nav ***********************/
+
+    .nav-container {
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .nav-container .nav-menu-ul {
+        padding-bottom: 15px;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .nav-container .nav-menu-ul #hiden-li {
+        display: none;
+    }
+
+    /******************* home ***********************/
+
+    
+
+
+    /******************* EDA-container ***********************/
+
+    .EDA-container .heading{
+        text-align: center;
+    }
+    .tech-type-ul{
+        width: 100%;
+        
+    }
+    ul{
+        margin: 0px;
+    }
+    .note{
+        display: none;
+    }
+
+    /******************* technology ***********************/
+    /* .technology-container{
+        height: 250px;
+    } */
+    .techn-card{
+        background-image: none; 
+        background-color: #cdd9e7;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        height: 190px;  
+    }
+    .techn-card-img{
+        display: block;
+        height: 1%;
+    }
+    .techn-card-para{
+        width: 100%;
+        padding: 0px 20px ;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+       
+    }
+ /******************* portfolio ***********************/
+.portfolio-container{
+    text-align: center;
+    justify-content: center;
+}
+.port-content{
+    width: 80%;
+}
+.port-img{
+    width: 90%;
+}
+
+ /******************* footer ***********************/
+ footer{
+
+ }
+.footer-body{
+    align-items: center;
+}
+
+}
+
+
+@media screen and (max-width:450px) {
+    .home-container .home-info {
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .nav-menu-ul {
+        min-width: 310px;
+    }
+    .techn-card-para{
+        display: none;
+    }
+    .techn-card-para2{
+        display: block;
+        font-size: 14px;
+        text-align: center;
+    }
+    .portfolio-container{
+        margin-top: -50px;
+    }
+}
